@@ -1,5 +1,5 @@
-System
-======
+Packages
+========
 
 Installs required and common system packages
 
@@ -24,7 +24,7 @@ Example Playbook
     - hosts: all
       roles:
          - ryanlelek.providers
-         - ryanlelek.system
+         - ryanlelek.packages
 
 License
 -------
