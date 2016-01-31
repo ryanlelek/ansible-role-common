@@ -11,7 +11,7 @@ None
 Role Variables
 --------------
 
-None
+- **packages_upgrade**: false
 
 Dependencies
 ------------

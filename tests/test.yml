@@ -1,6 +1,15 @@
 ---
 
+# Upgrade - No
 - hosts: all
+  roles:
+    - ryanlelek.providers
+    - ../../
+
+# Upgrade - Yes
+- hosts: all
+  vars:
+    packages_upgrade: true
   roles:
     - ryanlelek.providers
     - ../../
