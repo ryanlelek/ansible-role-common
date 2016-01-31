@@ -8,8 +8,7 @@
 
 # Upgrade - Yes
 - hosts: all
-  vars:
-    packages_upgrade: true
   roles:
     - ryanlelek.providers
-    - ../../
+    - role: ../../
+      packages_upgrade: true

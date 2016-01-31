@@ -21,10 +21,20 @@ Dependencies
 Example Playbook
 ----------------
 
+Do Not Upgrade Packages:  
+
     - hosts: all
       roles:
          - ryanlelek.providers
          - ryanlelek.packages
+
+Upgrade Packages:
+
+    - hosts: all
+      roles:
+         - ryanlelek.providers
+         - role: ryanlelek.packages
+           packages_upgrade: true
 
 License
 -------
